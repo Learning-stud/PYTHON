@@ -11,3 +11,7 @@ print(type(percentage))
 is_student= True
 print(type(is_student))
 print(name,roll_no,percentage,is_student)
+
+
+print("My name is " + name + " and my roll_no is ",roll_no)
+print(" I scored ", percentage, "% in final exams. i am a student is ",is_student)
