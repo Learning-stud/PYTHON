@@ -81,3 +81,10 @@ print(chr(ascii))
 ### chr() function is used to know the ASCII Value of CHARACTER 
 -------------------------
 ```
+
+
+# How  to take user input in oythin 
+
+##  by using ``` input() function``` we can take user input.
+
+##   Example => ``` name = input("what is your name:") ```
