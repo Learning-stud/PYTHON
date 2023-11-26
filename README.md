@@ -4,13 +4,13 @@
 
 ## print("Hello,\n there jay").
 
-### byt using backslash and then n to print in next lin in python.
+### By using backslash and then n to print in next lin in python.
 
 # how to add comments in python...
 
-### by has symbol you can give comments in python.
+### by [#] symbol you can give comments in python.
 
-## to comment out 5 to 10 lines of code in python youse have add three quates.
+## To comment out 5 to 10 lines of code in python youse have add three quates[ ''' YOUR COMMENT ''' ].
 
 # python Indentation
 
@@ -32,4 +32,52 @@
 
 ## List => To Store Sequence Of Datatypes [Example] => {For Sequence of Integer => Where we use square bracket [1,2,3,4] {For sequence of integer => [wher we also use square bracket and string are written in both quates Single & Double] => Example => ["jay" ,"devanshu" ,"tirth"] } }
 
-## Tuple => Tuple is also an collection of item but in tuple we use curle bracket \ () /  instead of square bracket  \ [] / , In a tuple we can use duplicate values .. but they can't be changed
+## Tuple => Tuple is also an collection of item but in tuple we use curle bracket \ () / instead of square bracket \ [] / , In a tuple we can use duplicate values .. but they can't be changed
+
+# DICTIONARY DATAYPES
+
+## => To store the [KEY VALUES PAIRS] EXAMPLE [ STUDENTS = { "NAMES":JAY STUDENT IS DICTIONARY names is key and jay is value }]
+
+# SET DATA TYPE
+
+## => Unordered collection of unique items
+
+# ASCII AND UNICODE VALUES
+
+## => ASCII => AMERICAN STANDERD CODE FOR INFORMATION INTERCHANGE.=> It helps to represent character as numeric codes
+
+## => ASCII VALUES
+
+### A-Z => 65->90
+
+### a-z => 97->122
+
+### 0-9 => 48->57
+
+### space =>32
+
+## ord() FUNCTION
+
+### => ord() function is used to know any ascii values of any character
+
+```
+--------------------------
+char = 's'
+print(ord(char))
+
+BY USING IN THESE WAY YOU CAN KNOW THE ASCII VALUE OF ANY CHHARACTER
+--------------------------
+```
+
+## CHR() FUNCTION
+
+### chr() function is used to know the character of ASCII Value
+
+```
+-------------------------
+ascii=67
+print(chr(ascii))
+
+### chr() function is used to know the ASCII Value of CHARACTER 
+-------------------------
+```
