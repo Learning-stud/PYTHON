@@ -78,13 +78,27 @@ BY USING IN THESE WAY YOU CAN KNOW THE ASCII VALUE OF ANY CHHARACTER
 ascii=67
 print(chr(ascii))
 
-### chr() function is used to know the ASCII Value of CHARACTER 
+### chr() function is used to know the ASCII Value of CHARACTER
 -------------------------
 ```
 
+# How to take user input in oythin
 
-# How  to take user input in oythin 
+## by using ` input() function` we can take user input.
 
-##  by using ``` input() function``` we can take user input.
+## Example => `name = input("what is your name:") print(name)`
 
-##   Example => ``` name = input("what is your name:") ```
+### input is always captured as string.
+
+## How to take user input as integer.
+
+### => For change we can use type casting => Type casting is the process of converting one data type to another data type
+
+```
+------------------------
+
+ Example => rollno = int(input("Enter   
+            roll  no: ")
+            )
+------------------------
+```
