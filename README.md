@@ -24,3 +24,7 @@
 # PYTHON CLI
 
 ### FULL FORM OF CLI  => COMMAND LINE  INTERFACE => COMMAND WE GIVE TO COMPUTER TO DO SOME TASK
+
+## how to know dtatypes in python?
+
+### by using the keyword [ Type ]  you can know any dtatype.
