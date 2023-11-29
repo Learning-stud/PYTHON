@@ -16,10 +16,12 @@
 # print(name)
 # devanshu()
 
-def jay():
-    print(" ha samji gayo havwe vandho nai !")
+
+''' passing and function using parameter  '''
+
+def jay( majama):
+    print(" ha samji gayo havwe vandho nai !",majama)
 
 devanshu = input("def function ma pehla hamesha print statement thase ane pachi def function use thase ")
 
-print(devanshu)
-jay()
+jay(devanshu)
