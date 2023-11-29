@@ -97,7 +97,7 @@ print(chr(ascii))
 ```
 ------------------------
 
- Example => rollno = int(input("Enter   
+ Example => roll_no = int(input("Enter   
             roll  no: ")
             )
 ------------------------
@@ -124,3 +124,6 @@ name = name.strip()
 name = name.capitalize().title
 
 ```
+#  what is def function 
+
+## => def function is used to create an own name function , the def means define the name of function name ..
