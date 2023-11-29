@@ -105,3 +105,21 @@ print(chr(ascii))
 
 # OPRATOR PRECEDENCE 
 ## WHEN IN ONE EXPRESSION THER IS MULTIPLE OPRATORS SO WHICH OPRATOR WILL EVALUATE SO THAT IS TOLD BY OPRATOR PRECEDENCE [BODMAS]
+
+# How to remove white space from string 
+
+```
+name = name.strip()
+
+``` 
+
+ # how to  capitalized name in python 
+
+```
+=> name = name.capitalize()
+
+=> title base capitalizasion
+
+=> name = name.title()
+
+```
