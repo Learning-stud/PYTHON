@@ -118,10 +118,9 @@ name = name.strip()
 ```
 => name = name.capitalize()
 
-=> title base capitalizasion
 
-name = name.capitalize().title
 
 => name = name.title()
+name = name.capitalize().title
 
 ```
