@@ -120,6 +120,8 @@ name = name.strip()
 
 => title base capitalizasion
 
+name = name.capitalize().title
+
 => name = name.title()
 
 ```
