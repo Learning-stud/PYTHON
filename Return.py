@@ -16,6 +16,11 @@ def main():
     print("The Square of", number , "is", result )
 
 def squared(multi):
+
+    ''' 
+        Also can be written in this type its and python in build
+        function {return pow(multi, 2)}  
+    '''
     return  multi * multi
 
 main()
