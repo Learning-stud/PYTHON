@@ -7,6 +7,7 @@ y = input("Enter the value of y: ")
 # Check kiya ki x aur y mein sirf numbers hain ya nahi
 if x.isdigit() and y.isdigit():
     # Agar numbers hain, toh unko integer mein convert kiya
+    # isdigit is to check ye digit he ki nai  
     x = int(x)
     y = int(y)
 
