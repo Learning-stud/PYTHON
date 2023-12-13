@@ -26,6 +26,8 @@ elif choice == 4:
     if num2 != 0:
         result = num1 / num2
         print(f"Result: {num1} / {num2} = {result}")
+        if choice == choice:
+            print("Thank You For Playing ")
     else:
         print("Cannot divide by zero.")
 else:
