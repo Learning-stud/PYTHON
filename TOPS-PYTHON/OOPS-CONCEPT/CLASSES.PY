@@ -6,3 +6,13 @@ class vehicals:
 
 my_cars = vehicals()
 my_cars.types()
+
+
+
+
+class birds:
+ def types_of_birds(self):
+  print("there are so many types of birds.. ")
+
+species = birds()
+species.types_of_birds()
