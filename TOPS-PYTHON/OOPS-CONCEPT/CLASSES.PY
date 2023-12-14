@@ -16,3 +16,28 @@ class birds:
 
 species = birds()
 species.types_of_birds()
+
+
+# class Students:
+#     def attendance(self):
+#         input("Enter the students attendance...")
+
+# # Create an instance of the class
+# teachers = Students()
+
+# # Call the attendance method
+# teachers.attendance()
+# print(students)
+
+class Students():
+    def attendance(self):
+        return input("Enter the students attendance.......")
+
+# Create an instance of the class
+teachers = Students()
+
+# Call the attendance method and store the result
+attendance_value = teachers.attendance()
+
+# Print the entered attendance
+print("Entered Attendance:", attendance_value)
