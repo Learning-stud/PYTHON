@@ -24,10 +24,10 @@ result = True
 while(result):
     print(
         """---------User Choice--------
-            1.Addition
-            2.Substraction
-            3.Multiply
-            4.Divide
+                1.Addition
+                2.Substraction
+                3.Multiply
+                4.Divide
         """
     )
 
