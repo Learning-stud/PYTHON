@@ -97,23 +97,24 @@ print(chr(ascii))
 ```
 ------------------------
 
- Example => roll_no = int(input("Enter   
+ Example => roll_no = int(input("Enter
             roll  no: ")
             )
 ------------------------
 ```
 
-# OPRATOR PRECEDENCE 
+# OPRATOR PRECEDENCE
+
 ## WHEN IN ONE EXPRESSION THER IS MULTIPLE OPRATORS SO WHICH OPRATOR WILL EVALUATE SO THAT IS TOLD BY OPRATOR PRECEDENCE [BODMAS]
 
-# How to remove white space from string 
+# How to remove white space from string
 
 ```
 name = name.strip()
 
-``` 
+```
 
- # how to  capitalized name in python 
+# how to capitalized name in python
 
 ```
 => name = name.capitalize()
@@ -124,6 +125,22 @@ name = name.strip()
 name = name.capitalize().title
 
 ```
-#  what is def function 
+
+# what is def function
 
 ## => def function is used to create an own name function , the def means define the name of function name ..
+
+### class : class is a object oriented programming language most important concept
+
+### class is a user defined data types
+
+### class which contain data members function
+
+# syntex
+
+```
+  class <classname>:
+  data menber    < variables>
+
+  /member function ( to perform some specific opration )
+```
