@@ -50,7 +50,7 @@ def game(player):
     if player == Computer_choice: # Agar player ane computer no score sarkho hase to niche nu return statemnets pass thase
        return "OOPS It's a Tie"
 
-    # pachi user ne jitava mate ni condition check thase jose agar baddhu oppsite hoi computer thi to player jitse
+    # pachi user ne jitava mate ni condition check thase jose agar baddhu opposite hoi computer thi to player jitse
     elif((player == "ROCK" and Computer_choice == "SCISSOR")or
          (player == "PAPER"  and Computer_choice == "ROCK")or
          (player == "SCISSOR" and Computer_choice == "PAPER")):
@@ -62,7 +62,7 @@ def game(player):
 # CREATING THE SCREEN OF TKINTER WINDOW AND ITS LAYOUT BUTTONS , TEXT , LABELS
  screen = tkinter.Tk() # ani madad thi gui banse
  screen.title("WELCOME TO THE GAME OF ROCK PAPER AND SCISSOR")    # je screen pop up thasse ne ani top ma title banse aa nam nu
- screen.geometry("550 x 550") # ana thi  poped screen ni hheight width set thse
+ screen.geometry("550 x 550") # ana thi  poped screen ni height width set thase
     #  "GAME TITLE LABEL"
  label = tkinter.label(screen , text ="ROCK PAPER SCISSOR GAME ", font=("Arial",25,"bold"))
  label.place(x = 85 , y = 45)
