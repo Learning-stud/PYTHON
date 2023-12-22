@@ -12,15 +12,15 @@ def game(player):
  global user,Computer_choice
 
 # List Of Choice for The Computer
- Computer_choice =["ROCK ", " PAPER ", " SCISSOR "]
+ li =["ROCK ", " PAPER ", " SCISSOR "]
 
  #  declaration
  # [.random na help computer ani choices lase ane try karse k let he wins ]
- Computer_choice = random.choice(Computer_choice)
+ Computer_choice = random.choice(li)
 
  #Winner Determine
  # attyare result name na variable ma wwinner decission store thase ane pache winnerdeciddion namme nu function banavsu  jem playerc ane computer/machine no statements passs karisu
- result = winnerDecission(player,machine_score)
+ result = winnerDecission(player,Computer_choice)
 
  # Label Updating with choice and result
  user.Label["text"]=f" User Choice :  {player}"
@@ -61,9 +61,9 @@ def winnerDecission(player,Computer_choice):
 # CREATING THE SCREEN OF TKINTER WINDOW AND ITS LAYOUT BUTTONS , TEXT , LABELS
 screen = tkinter.Tk() # ani madad thi gui banse
 screen.title("WELCOME TO THE GAME OF ROCK PAPER AND SCISSOR")    # je screen pop up thasse ne ani top ma title banse aa nam nu
-screen.geometry("550 x 550") # ana thi  poped screen ni hheight width set thse
+screen.geometry("550x550") # ana thi  poped screen ni hheight width set thse
     #  "GAME TITLE LABEL"
-label = tkinter.label(screen , text ="ROCK PAPER SCISSOR GAME ", font=("Arial",25,"bold"))
+label = tkinter.Label(screen , text ="ROCK PAPER SCISSOR GAME ", font=("Arial",25,"bold"))
 label.place(x = 85 , y = 45)
 
 # ROCK BUTOON STYLING
