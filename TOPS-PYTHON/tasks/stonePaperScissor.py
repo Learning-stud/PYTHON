@@ -109,8 +109,7 @@ result.place(x=400, y=260)
 
 
 
-<<<<<<< HEAD
+
 screen.mainloop()
-=======
- screen.mainloop()
->>>>>>> 51c87e6c240515f6f7cabc8aae056241bd5a71a7
+
+
