@@ -22,9 +22,8 @@
 -Characteristic: You can modify the content or structure of a mutable object. For example, you can add, remove, or change elements in a list.
 ```
 
-
-
 ## -TUPLE ARE IMMUTABLE
+
 ## -TUPLE CONTAIN IMMUTABLE OBJECT
 
 ```IMMUTABLE MEANING ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,10 +36,10 @@
 -ELEMENTS CAN BE ACCESED EASILY
 ```
 
+# 2ND WHAT IS DECORATOR
 
+    																									.
 
-# 2ND  WHAT IS DECORATOR
-																										.
 ## -A FUNCTION THAT TAKE ANOTHER FUNCTION AS AN ARGUMENTAND THEN RETURN ANOTHER FUNCTION
 
 ```
@@ -58,7 +57,7 @@ decorator_show()
 
 ```
 
-# 3RD  diffrence list and ddict comprehension
+# 3RD diffrence list and ddict comprehension
 
 ```
 ~LIST COMPREHENSION
@@ -71,14 +70,20 @@ decorator_show()
 ~square_num =  {x: x**2 for x in numbers if x%2 == 0}
 
 ```
+
 # 3RD DIFFRENCE BETWEEN GENERATOR AND ITERATOR
 
 ## -GENARATOER
+
 ## ~~~ GENERATOR ARE ITERATOR WHICH ARE EXECUTE ONLY ONCE
+
 ## ~~~ GENERATOR USES (yield) keyword
+
 ## ~~~ GENERATORS ARE MOSTLY USED INLOOPS
+
 ## ~~~ EVERY GENERATOR IS AN ITERATOR
-## ~~~~~~~~~   In Python, the next() function is used to retrieve the next item from an iterator. It takes two arguments:
+
+## ~~~~~~~~~ In Python, the next() function is used to retrieve the next item from an iterator. It takes two arguments:
 
 ```
 ~~~~~~~~~~~~EXAMPLE OF GENERATOR~~~~~~~~~~~~~~~
@@ -96,41 +101,52 @@ def sqr(n):
 	9
 
 ```
+
 ## - ITERATOR
+
 ## ~~~ ITERSTOR IS AN OBJECT WHICH CONTAIN A COUNTABLE NUMBEER OF VALUES
+
 ## ~~~ IT IS USED TO ITERATE OVER ITERABLE OBJECTS
+
 ## ~~~LIKE LIST TUPLE SETS
-## ~~~ITERATOR USES  [iter() and next()] FUNCTION
+
+## ~~~ITERATOR USES [iter() and next()] FUNCTION
+
 ## ~~~EVERY ITERATOR IS NOT A GENERATOR
+
 ##
 
-
-
 ## 4TH WHAT IS INIT KEYWORD IN PYTHON
+
 ```
 ~~~~ [ |||||||||||||||||||||||||||||||||||||||||||||      __INIT## __.PY {FILE}	       |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ]
 ```
 
 ## ~~~THIS FILE LET THE ITERPRETOR KNOW THAT A DIRECTORY CONTAINS CODE FOR A PYTHON MODULE
-## ~~~ IT CAN BE BLANK
-## ~~~WITHOUT ONE , YOU CANNOT IMPORT MODULES FROM ANOTHER FOLDER INTO YOUR PROJECT
 
+## ~~~ IT CAN BE BLANK
+
+## ~~~WITHOUT ONE , YOU CANNOT IMPORT MODULES FROM ANOTHER FOLDER INTO YOUR PROJECT
 
 ```
 ||||||||||||||||||||||||||||||||||||||||||||||| THE ROLE ||||||||||||||||||||||||||||||||||||||||||||||||||
 ```
- THE ROLE OF THE FILE IS SIMILAR TO THE FUNCTION IN PYTHON CLASS
- IT SET UP HOW PACKAGES OR FUNCTIONS WILL BE IMPORTED INTO YOUR FILES
 
+THE ROLE OF THE FILE IS SIMILAR TO THE FUNCTION IN PYTHON CLASS
+IT SET UP HOW PACKAGES OR FUNCTIONS WILL BE IMPORTED INTO YOUR FILES
 
 ```
 [ |||||||||||||||||||||||||||||||||||_INIT__()FUNCTION||||||||||||||||||||||||||||||||||||||||||||||||| ]
 ```
- ##  THE __INIT__ METHOD IS SIMILAR TO CONSTRUCTOR IN C++ AND JAVA
- ##  CONSTRUCTOR ARE USED RO INITIALIZE   THE OBJECT STATE
 
+## THE **INIT** METHOD IS SIMILAR TO CONSTRUCTOR IN C++ AND JAVA
 
-# 5TH DIFFRENCE BETWEEN MODULES AND
+## CONSTRUCTOR ARE USED RO INITIALIZE THE OBJECT STATE
 
+# 5TH DIFFRENCE BETWEEN MODULES AND PACKAGES IN PYTHON
 
-```
+## MODULE
+
+### THE MODULE IS A SIMPLY PYTHON FILE THAT CONTAINS COLLECTION OF FUNCTION AND GLOBAL VARIABLES WITH HAVING A ( .PY ) EXTENSION FILE
+
+### IT IS AN EXECUTABLE FILE AND TO ORGANIZE ALL THE MODULES WE HAVE THE CONCEPT CALLED PACKAGES IN PYTHON
