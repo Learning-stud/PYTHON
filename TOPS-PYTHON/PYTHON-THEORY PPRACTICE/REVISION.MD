@@ -1,25 +1,33 @@
-PYTHON PREPARATION
+# PYTHON PREPARATION
 
+# 1ST DIFRRENCE BETWEEN LIST AND TUPLE
 
-1ST DIFRRENCE BETWEEN LIST AND TUPLE
+## -LIST ARE MUTABLE
 
--LIST ARE MUTABLE
--LIST  IA A CONTAINER  THAT CONTAIN DIFFRENT TYPES OF OBJECT
--SYNTAX => LIST=[" 'A','B','C','1','2','3'  "]
--LIST ITRATION IS SLOWER
--LIST CONSUME MORE MEMORY
--OPERATION LIKE INSERTION AND DELETION ARE BETTER PERFORMED
--MUTABLE OBJECTS:
+## -LIST IA A CONTAINER THAT CONTAIN DIFFRENT TYPES OF OBJECT
 
+## -SYNTAX => LIST=[" 'A','B','C','1','2','3' "]
+
+## -LIST ITRATION IS SLOWER
+
+## -LIST CONSUME MORE MEMORY
+
+## -OPERATION LIKE INSERTION AND DELETION ARE BETTER PERFORMED
+
+## -MUTABLE OBJECTS:
+
+```
 -Definition: Objects whose state or value can be changed after creation are called mutable.
 -Examples: Lists, dictionaries, and sets are common examples of mutable objects in Python.
 -Characteristic: You can modify the content or structure of a mutable object. For example, you can add, remove, or change elements in a list.
+```
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--TUPLE ARE IMMUTABLE
--TUPLE  CONTAIN IMMUTABLE OBJECT
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~IMMUTABLE MEANING ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## -TUPLE ARE IMMUTABLE
+## -TUPLE CONTAIN IMMUTABLE OBJECT
+
+```IMMUTABLE MEANING ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -Definition: Objects whose state or value cannot be changed after creation are called immutable.
 -Examples: Integers, floats, strings, and tuples are examples of immutable objects in Python.
@@ -27,15 +35,15 @@ PYTHON PREPARATION
 -TUPLE PROCESSING IS FASTER THAN LIST
 -TUPLE CONSUME LESS MEMORY
 -ELEMENTS CAN BE ACCESED EASILY
+```
 
 
 
-
-2ND  WHAT IS DECORATOR
+# 2ND  WHAT IS DECORATOR
 																										.
--A FUNCTION THAT TAKE ANOTHER FUNCTION AS AN ARGUMENTAND THEN RETURN ANOTHER FUNCTION
+## -A FUNCTION THAT TAKE ANOTHER FUNCTION AS AN ARGUMENTAND THEN RETURN ANOTHER FUNCTION
 
-
+```
 -SYNTAX
 def decoder_function(func):
 	def wrapper_function():
@@ -48,8 +56,11 @@ def Show ():
 decorator_function = decorator_function(Show)
 decorator_show()
 
+```
 
--3RD  diffrence list and ddict comprehension
+# 3RD  diffrence list and ddict comprehension
+
+```
 ~LIST COMPREHENSION
 ~numbers = [1,2,3,4,5,6]
 ~even_nuber = [ x for x in numbers if x % 2 == 0]
@@ -59,7 +70,8 @@ decorator_show()
 ~numbers = [1,2,3,4,5,6]
 ~square_num =  {x: x**2 for x in numbers if x%2 == 0}
 
-3RD DIFFRENCE BETWEEN GENERATOR AND ITERATOR
+```
+# 3RD DIFFRENCE BETWEEN GENERATOR AND ITERATOR
 
 -GENARATOER
 ~~~ GENERATOR ARE ITERATOR WHICH ARE EXECUTE ONLY ONCE
@@ -117,4 +129,4 @@ def sqr(n):
 5TH DIFFRENCE BETWEEN MODULES AND
 
 
-		
+```
