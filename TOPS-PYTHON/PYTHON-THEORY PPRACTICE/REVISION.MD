@@ -73,12 +73,14 @@ decorator_show()
 ```
 # 3RD DIFFRENCE BETWEEN GENERATOR AND ITERATOR
 
--GENARATOER
-~~~ GENERATOR ARE ITERATOR WHICH ARE EXECUTE ONLY ONCE
-~~~ GENERATOR USES (yield) keyword
-~~~ GENERATORS ARE MOSTLY USED INLOOPS
-~~~ EVERY GENERATOR IS AN ITERATOR
-~~~~~~~~~   In Python, the next() function is used to retrieve the next item from an iterator. It takes two arguments:
+## -GENARATOER
+## ~~~ GENERATOR ARE ITERATOR WHICH ARE EXECUTE ONLY ONCE
+## ~~~ GENERATOR USES (yield) keyword
+## ~~~ GENERATORS ARE MOSTLY USED INLOOPS
+## ~~~ EVERY GENERATOR IS AN ITERATOR
+## ~~~~~~~~~   In Python, the next() function is used to retrieve the next item from an iterator. It takes two arguments:
+
+```
 ~~~~~~~~~~~~EXAMPLE OF GENERATOR~~~~~~~~~~~~~~~
 def sqr(n):
 	for i in range(1,n+1):
@@ -93,40 +95,42 @@ def sqr(n):
 	4
 	9
 
-- ITERATOR
-~~~ ITERSTOR IS AN OBJECT WHICH CONTAIN A COUNTABLE NUMBEER OF VALUES
-~~~ IT IS USED TO ITERATE OVER ITERABLE OBJECTS
-~~~LIKE LIST TUPLE SETS
-~~~ITERATOR USES  [iter() and next()] FUNCTION
-~~~EVERY ITERATOR IS NOT A GENERATOR
+```
+## - ITERATOR
+## ~~~ ITERSTOR IS AN OBJECT WHICH CONTAIN A COUNTABLE NUMBEER OF VALUES
+## ~~~ IT IS USED TO ITERATE OVER ITERABLE OBJECTS
+## ~~~LIKE LIST TUPLE SETS
+## ~~~ITERATOR USES  [iter() and next()] FUNCTION
+## ~~~EVERY ITERATOR IS NOT A GENERATOR
+##
 
 
 
+## 4TH WHAT IS INIT KEYWORD IN PYTHON
+```
+~~~~ [ |||||||||||||||||||||||||||||||||||||||||||||      __INIT## __.PY {FILE}	       |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ]
+```
 
-4TH WHAT IS INIT KEYWORD IN PYTHON
-
-~~~~ [ |||||||||||||||||||||||||||||||||||||||||||||      __INIT__.PY {FILE}	       |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ]
-
-~~~THIS FILE LET THE ITERPRETOR KNOW THAT A DIRECTORY CONTAINS CODE FOR A PYTHON MODULE
-~~~ IT CAN BE BLANK
-~~~WITHOUT ONE , YOU CANNOT IMPORT MODULES FROM ANOTHER FOLDER INTO YOUR PROJECT
+## ~~~THIS FILE LET THE ITERPRETOR KNOW THAT A DIRECTORY CONTAINS CODE FOR A PYTHON MODULE
+## ~~~ IT CAN BE BLANK
+## ~~~WITHOUT ONE , YOU CANNOT IMPORT MODULES FROM ANOTHER FOLDER INTO YOUR PROJECT
 
 
-
+```
 ||||||||||||||||||||||||||||||||||||||||||||||| THE ROLE ||||||||||||||||||||||||||||||||||||||||||||||||||
-
-~~~ THE ROLE OF THE FILE IS SIMILAR TO THE FUNCTION IN PYTHON CLASS
-~~~ IT SET UP HOW PACKAGES OR FUNCTIONS WILL BE IMPORTED INTO YOUR FILES
-
-
-~~~~ [ |||||||||||||||||||||||||||||||||||||||||||||      __INIT__()FUNCTION	       |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ]
+```
+ THE ROLE OF THE FILE IS SIMILAR TO THE FUNCTION IN PYTHON CLASS
+ IT SET UP HOW PACKAGES OR FUNCTIONS WILL BE IMPORTED INTO YOUR FILES
 
 
-~~~ THE __INIT__ METHOD IS SIMILAR TO CONSTRUCTOR IN C++ AND JAVA
-~~~ CONSTRUCTOR ARE USED RO INITIALIZE   THE OBJECT STATE
+```
+[ |||||||||||||||||||||||||||||||||||_INIT__()FUNCTION||||||||||||||||||||||||||||||||||||||||||||||||| ]
+```
+ ##  THE __INIT__ METHOD IS SIMILAR TO CONSTRUCTOR IN C++ AND JAVA
+ ##  CONSTRUCTOR ARE USED RO INITIALIZE   THE OBJECT STATE
 
 
-5TH DIFFRENCE BETWEEN MODULES AND
+# 5TH DIFFRENCE BETWEEN MODULES AND
 
 
 ```
