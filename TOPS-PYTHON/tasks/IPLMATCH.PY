@@ -1,6 +1,8 @@
 import random
 
 class TopsPremierLeague:
+
+     #defining player score player ,opponent, toss winner
     def __init__(self):
         self.Teams = ['CSK', 'MI', 'GT', 'KKR']
         self.CurrentTeam = ""
@@ -14,7 +16,7 @@ class TopsPremierLeague:
 
     def display_teams(self):
         print(" 🧨 Teams In TOPS PREMIER LEAGUE 🧨  ")
-        for available_teams in range(len(self.Teams)):
+        for available_teams in range(len(self.Teams)):  # selecting the length of player 
             print(f"{available_teams + 1}.{self.Teams[available_teams]}")
 
     def select_teams(self):
